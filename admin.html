@@ -20,67 +20,46 @@
 		</div>
 		<div class="col-12 col-md-6">
 			<div class="row">
-				<h1 id="invoice" >INVOICE</h1>
+				<h1 id="invoice" >ADMIN</h1>
 			</div>
 			<div class="row align-items-end">
 				<i class="fa fa-calendar fa-2x mx-2" aria-hidden="true"></i>
 				<span class="font-italic">Oct 07,2017</span>
 				<i class="fa fa-qrcode fa-2x mx-2" aria-hidden="true"></i>
-				<span class="font-italic">45632856</span>
-				<button class="ml-3 btn"><a href="admin.html" >Admin</a></button>
+				<span class="font-italic">Admin Name</span>
+				<button class="ml-3 btn"><a href="index.html" >Invoice</a></button>
 			</div>
 		</div>
 	</div>
-	<div class="row mt-4">
-		<div class="col-8 col-md-6">
-			<select class="custom-select mr-sm-2 mb-sm-0 w-100 mt-2" id="selector">
-				 
-			</select>
-		</div>
-		<div class="col-4 col-md -3">
-			<input type="text" class="form-control w-100 btn mt-2" id="quantity" placeholder="Quantity">
-		</div>
-		<div class="col-12 col-md-3">
-			<button class="btn w-75 mt-2">Add</button>
-		</div>
-	</div>
-	<div class="row mt-4">
-		<table class="table table-responsive">
-			<thead>
-				<tr>
-					<th>S.No</th>
-					<th>Items</th>
-					<th>Quantity</th>
-					<th>Price</th>
-					<th>Total Price</th>
-				</tr>
-			</thead>
-			<tbody id="tbody">
-				
-			</tbody>
-		</table>
-		
-	</div>
-	<div class="row justify-content-end">
-		
-		<div  class="col-12 col-md-5">
-			<span id="gTotal" class="pl-2">Grand Total</span>
-			<i class="fa fa-inr fa-2x" aria-hidden="true"></i><span id="grandTotal">0.00<span>
-		</div>
-	</div>
+	<p id="output"></p>
+	<table>
+		<tr>
+			<td>Foods Items</td>
+			<td><input type="text" class="form-control" id="food"></td>
+		</tr>
+		<tr>
+			<td>Price</td>
+			<td><input type="text" class="form-control" id="prize"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<button class="btn">Add</button>
+			</td>
+		</tr>
+	</table>
 	
 	
 </div>
 	<div class="container">
 		<div class="row footer ">
 			<i class="fa fa-copyright  my-2 mr-1 pl-1" aria-hidden="true" id="fa"></i> triofoods.com
-			<a  href="" class="ml-auto condition">Terms & Conditions</a>
+			<a  href="" class="ml-auto ">Terms & Conditions</a>
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="index.js"></script>
+	<script src="admin.js"></script>
 </body>
 </html>

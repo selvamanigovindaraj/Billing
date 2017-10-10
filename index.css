@@ -5,12 +5,15 @@ img{
 	width:70px;
 	height:70px;
 }
+.jumbotron{
+	height:100vh;
+}
 #brand{
 	font-size:2rem;
 	font-family: 'Open Sans', sans-serif;
 	color:	#46b980;
 }
-#invoice,i{
+#invoice,i,#output{
 	color:	#46b980;
 }
 button{
@@ -27,7 +30,7 @@ thead{
 #grandTotal{
 	font-size:1.5rem;
 }
-.footer,a{
+.footer,.condition{
 	background-color:#46b980;
 	font-size:1.15rem;
 	font-family: 'Open Sans', sans-serif;
@@ -42,4 +45,10 @@ thead{
 		display:block;
 		text-align:center
 	}
+}
+a{
+	font-size:1.15rem;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration:none;
+	color:white;
 }
