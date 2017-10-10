@@ -9,7 +9,7 @@ var total="";
 $(document).ready(function(){
 	$.ajax({
 		type:"GET",
-		url:"http://59da0fdfea4639001240945b.mockapi.io/foodItems",
+		url:"https://59da0fdfea4639001240945b.mockapi.io/foodItems",
 		dataType:"json",
 		success:function(result){
 			var txt=""
