@@ -12,7 +12,7 @@ $(document).ready(function(){
 		url:"https://59da0fdfea4639001240945b.mockapi.io/foodItems",
 		dataType:"json",
 		success:function(result){
-			var txt=""
+			var txt="<option>"+"choose..."+"</option>"
 			obj=result;
 			for(i=0;i<result.length;i++){
 					txt+="<option>"+result[i].Items+"</option>"
@@ -47,8 +47,5 @@ $(document).ready(function(){
 		$("#grandTotal").html(gt)
 	})
 	
-	console.log(a);
-	console.log(b);
-	console.log(c);
-	console.log(d);
+	
 });
